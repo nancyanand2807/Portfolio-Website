@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Responsive portfolio",
   "main": "index.js",
+  "engines": {
+    "node": "11.15.0"
+  },
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
